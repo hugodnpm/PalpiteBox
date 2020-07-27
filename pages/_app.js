@@ -1,15 +1,18 @@
 import React from 'react'
 import '../css/styles.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const MyApp = ({ Component, pageProps }) => {
 
     return (
-        <div class Name = 'container mx'>
-            <div className='bg-gray-200 p-4'>
-                PalpiteBox
-            </div>
-            <h1>My App</h1>
-            <Component {...pageProps} />
+        <div>
+        <Header/>
+                
+        <div className= "container mx-auto px-4">    
+        <Component {...pageProps} />
+        </div>
+        <Footer/>
         </div>
     )
 }
