@@ -27,10 +27,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/pesquisa": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

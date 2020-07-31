@@ -5,11 +5,14 @@ import Link from 'next/link'
 
 const Header = () => {
     return(
+            
         <React.Fragment>
             <div className = {styles.wrapper}>
-              <div className= 'container mx-auto'>
-                  <img className='mx-auto' src='/logo_palpitebox.png'alt='PalpiteBox'/>
-              </div>
+                <div className= 'container mx-auto'>
+                    <a href='/'>
+                        <img className='mx-auto' src='/logo_palpitebox.png'alt='PalpiteBox'/>
+                    </a>
+                </div>
             </div>
             <div className='bg-gray-300 p-4 shadow text-center'>
                 <Link href='/sobre'>
